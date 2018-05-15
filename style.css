@@ -1,0 +1,101 @@
+a {
+  text-decoration: none;
+  color: #0411f9;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: url(https://hodlthemoon.com/imgBlog/bitcoin-moon.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+.link-box {
+  width: 500px;
+  background-color: #939393;
+  border: 3px solid #4c4c4c;
+  padding: 25px;
+  margin: 25px;
+  line-height: 1.5;
+}
+
+a:hover {
+  color: #f90000;
+}
+
+h1 {
+  color: #42cef4;
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+h3 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+p {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  margin: 0 40px;
+  padding: 5px;
+}
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+
+  /* Standar Syntax */
+  animation: rainbow 3s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  5%{color: red;}
+  35%{color: yellow;}
+  65%{color: green;}
+  85%{color: blue;}
+  0%{color: orange;}
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
